@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blogger Traveler</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ 
+<section class="showcase">
+	<header>
+		<h2 class="logo">Travel</h2>
+		<div class="toggle"></div>
+	</header>
+
+<video src="backloop.mp4" muted="muted" loop="loop" autoplay="autoplay"></video>
+<div class="overlay"></div>
+
+<div class="text">
+	<h2>Never stop</h2>
+<h3>Exploring the world</h3>
+<p>Explore the Canadian region, visit one of the best places in Canada. Amazing parks, waterparks, schools,
+shopping malls, resorts, and much more!</p>
+<a href="blog.html">Explore</a>
+</div>
+
+<ul class="social">
+	<li><a href="https://www.snapchat.com/add/mfx4800"><img src="snap.jpg" width="40px"></a></li>
+<li><a href="https://www.instagram.com/imshalfx/"><img src="ig.png" width="40px"></a></li>
+<li><a href="https://twitter.com/Mshalfx"><img src="twitter.jpg" width="40px"></a></li>
+</ul>
+</section>
+
+<div class="menu">
+	<ul>
+		<li><a href="https://www.toronto.ca">News</a></li>
+		<li><a href="https://www.youtube.com/watch?v=TYqSUtQk12E">Watch about Canada</a></li>
+		<li onclick="myFunction()" class="contact">Contact Us</li>
+	</ul>
+</div>
+
+<script>
+	const menuToggle = document.querySelector('.toggle')
+	const showcase = document.querySelector('.showcase')
+
+menuToggle.addEventListener('click', function(){
+	menuToggle.classList.toggle('active')
+	showcase.classList.toggle('active')
+})
+
+function myFunction() {
+  alert("Emall Us at meshalalhomoud@gmail.com");
+}
+
+</script>
+
+
+</body>
+</html>
